@@ -47,6 +47,7 @@ class Store:
             self.items[old_item_name] = new_price
             print(f"Цена товара '{old_item_name}' обновлена до {new_price}.")
 
+# Создаю несколько объектов класса `Store` и тестирую методы
 store3 = Store('Всё для рабовладения', 'Башингтон, ул. Вротшилдьа, д. небескрёб')
 store3.add_item('Галера', 59660000)
 store3.add_item('Колония на чужом материке', 4568700000000)
@@ -58,7 +59,7 @@ store.add_item('куки', 600)
 store.add_item('эрорес', 8000)
 store.update_item_price('эрорес', 9000)
 store.remove_item('эрорес')
-print(store.get_item_price('эрорес')) # Ожидаемый вывод: 90
-print(store.get_item_price('куки')) # Ожидаемый вывод: 60
-print(store.get_item_price('груши')) # Ожидаемый вывод: None
-print(store.get_item_price('апельсины')) # Ожидаемый вывод: None
+print(store.get_item_price('эрорес'))
+print(store.get_item_price('куки'))
+print(store.get_item_price('груши'))
+print(store.get_item_price('апельсины'))
