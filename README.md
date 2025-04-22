@@ -20,11 +20,11 @@
 
 1. Убедитесь, что у вас установлен Python 3.12+
 2. Скачайте или клонируйте репозиторий:
-   ```
+```
    git clone https://github.com/Z01coder/Clear-Python-Task-Manager
-	```
+```
 3. Запустите файл:
-	```
+```
 python main.py
-	``` 
+``` 
   
